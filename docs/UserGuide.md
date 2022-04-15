@@ -3,9 +3,7 @@ layout: page
 title: User Guide
 ---
 <br>
-<br>
 UNite is a **desktop app for managing contacts specifically designed for people in University**. It is optimized for use via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI). If you want an easy-to-use app to manage your University contacts, UNIte is the right place to go!
-<br>
 <br>
 <br>
 * **Table of Contents**
@@ -167,7 +165,6 @@ Examples:
 * `edit 2 n/Betsy Crower t/` <br> Edits the name of the 2nd person to be `Betsy Crower` and clears all existing tags.
 * `edit 2 n/Betsy Crower t/tag1 t/tag1 t/tag1` <br> Edits the name of the 2nd person to be `Betsy Crower` and creates only one tag `tag1`.
 
-<div style="page-break-after: always;"></div>
 
 ### Add a new tag : `add_tag`<a name="add-a-new-tag"></a>
 
@@ -193,7 +190,6 @@ Examples:
 * `delete_tag 1`<br> Deletes the tag at index number 1 if there is any.
 * `delete_tag 10`<br> Deletes the tag at index number 10 if there is any.
 
-<div style="page-break-after: always;"></div>
 
 ### List all tags : `list_tag`<a name="list-all-tags"></a>
 
@@ -233,7 +229,6 @@ Examples:
 * `detach t/Students i/1`<br> Detaches the tag "Students" from the person at index 1, if the person exists and the person has a tag called "Students".
 * `detach t/Professors i/10`<br> Detaches the tag "Professors" from the person at index 10, if the person exists and the person has a tag called "Professors".
 
-<div style="page-break-after: always;"></div>
 
 ### Filter list by tag: `filter`<a name="filter-list-by-tag"></a>
 Filters the full contact list with an existing tag. List will not get updated if tag does not exist. To clear the
@@ -276,8 +271,6 @@ Examples:
     <img src="images/find_yu_li.png" width="450"/>
 </p>
 
-
-<div style="page-break-after: always;"></div>
 
 ### Grab person's attribute : `grab`<a name="grab-person-attribute"></a>
 
@@ -332,7 +325,7 @@ Examples:
 * `theme dark` changes UNite to dark theme, which is also the default theme.
 
 <p align="center"> 
-    <img src="images/dark_theme.png" width="450"/>
+    <img src="images/dark_theme.png" width="420"/>
 </p>
 
 <div style="page-break-after: always;"></div>
@@ -340,7 +333,7 @@ Examples:
 * `theme light` changes UNite to light theme.
 
 <p align="center"> 
-    <img src="images/light_theme.png" width="450"/>
+    <img src="images/light_theme.png" width="420"/>
 </p>
 
 <div style="page-break-after: always;"></div>
@@ -488,7 +481,6 @@ Another approach to delete a tag one at a time is to right-click on a tag in tag
     <img src="images/selectedTag_taglist.png" width="250"/>
 </p>
 
-<div style="page-break-after: always;"></div>
 
 ### Filter list by tag<a name="filter-list-by-tag-click"></a>
 To filter the list of person by tag directly, first display all the tags by input the command `list_tag`, then simply left-click on the tag to filter the list. As mentioned, this feature is enabled by default and cannot be disabled.
@@ -537,4 +529,4 @@ Action | Command format, Examples                                               
 **profile** | `profile INDEX`<br> e.g., `profile 3`                                                                                                                             | (Person list panel) left-click on a person
 **remark_tag** | `remark_tag t/TAG_NAME r/REMARK`<br> e.g., `remark t/classmates r/My classmates for CS2103T` | -
 **theme** | `theme THEME`<br> e.g., `theme light`                                                                                                                             | -
-
+  --------------------------------------------------------------------------------------------------------------------
