@@ -201,6 +201,8 @@ List out all tags current exist in UNite.
 
 Format: `list_tag`
 
+<div style="page-break-after: always;"></div>
+
 ### Attach tag to a profile: `attach`<a name="attach-tag-to-a-profile"></a>
 
 Add an existing tag to a profile.
@@ -250,6 +252,8 @@ Removes all tags that are not attached to any person.
 
 Format: `clear_emptytag`
 
+<div style="page-break-after: always;"></div>
+
 ### Locate person by name: `find`<a name="locate-person-by-name"></a>
 
 Finds persons whose names contain the keyword exactly.
@@ -271,6 +275,7 @@ Examples:
     <img src="images/find_yu_li.png" width="450"/>
 </p>
 
+<div style="page-break-after: always;"></div>
 
 ### Grab person's attribute : `grab`<a name="grab-person-attribute"></a>
 
@@ -328,7 +333,6 @@ Examples:
     <img src="images/dark_theme.png" width="420"/>
 </p>
 
-<div style="page-break-after: always;"></div>
 
 * `theme light` changes UNite to light theme.
 
@@ -357,6 +361,8 @@ Examples:
 * `filter friends` followed by `profile 3` displays the 3rd person's profile in the filtered list generated
 by the `filter`command.
 * `find Betsy` followed by `profile 1` displays the 1st person's profile in the results of the `find` command.
+
+<div style="page-break-after: always;"></div>
 
 ### Clear all entries : `clear`<a name="clear-all-entries"></a>
 
@@ -506,7 +512,7 @@ To filter the list of person by tag directly, first display all the tags by inpu
 
 ## Command summary<a name="command-summary"></a>
 
-Action | Command format, Examples                                                                                                                                          | Mouse Interaction
+Action | Command format, Examples       | Mouse Interaction
 --------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------
 **add** | `add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS [t/TAG]…​`<br> e.g., `add n/James Ho p/22224444 e/jamesho@example.com a/123, Clementi Rd, 1234665 t/friend t/colleague` | (Menu bar) `Add ` -> `Add Profile`
 **add_tag**| `add_tag t/TAG_NAME`                                                                                                                                              | (Menu bar) `Tags` -> `Tags`, enter tag name in text field -> select `Add`
