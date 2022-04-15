@@ -2,9 +2,10 @@
 layout: page
 title: User Guide
 ---
+<br>
 UNite is a **desktop app for managing contacts specifically designed for people in University**. It is optimized for use via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI). If you want an easy-to-use app to manage your University contacts, UNIte is the right place to go!
-
-
+<br>
+<br>
 * **Table of Contents**
 {:toc}
 
@@ -298,7 +299,7 @@ Examples:
 * `grab tele/ t/friends` <br> Grabs the telegram id of everyone tagged as "friends" inside UNite.
 
 <p align="center">
-    <img src="images/grab-email.png" width="500"/>
+    <img src="images/grab-email.png" width="400"/>
 </p>
 
 
@@ -404,8 +405,8 @@ enter the command in the command box and follow the instructions in the previous
 Shown below are the annotated screenshots of UNite for reference to UI components:
 
 <p align="center">
-    <img src="images/UNite_annotated.png" width="400"/>  <img src="images/UNite_profile.png" width="400"/> <br>
-<img src="images/UNite_taglist.png" width="400"/>  <img src="images/UNite_grabresult.png" width="400"/>
+    <img src="images/UNite_annotated.png" width="360"/>  <img src="images/UNite_profile.png" width="360"/> <br>
+<img src="images/UNite_taglist.png" width="360"/>  <img src="images/UNite_grabresult.png" width="360"/>
 </p>
 
 <div style="page-break-after: always;"></div>

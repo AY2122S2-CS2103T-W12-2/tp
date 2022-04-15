@@ -154,7 +154,7 @@ public class PersonListPanel extends UiPart<Region> {
      */
     public void handleKeySelect(KeyEvent keyEvent) {
         if (keyEvent.getCode().equals(KeyCode.UP) || keyEvent.getCode().equals(KeyCode.DOWN)) {
-            int index = personListView.getSelectionModel().getSelectedIndex();
+            int index = personListView.getSelectionModel().getSelectedIndex() + 1;
             handleSetProfile(index);
         } else {
             personListView.requestFocus();
