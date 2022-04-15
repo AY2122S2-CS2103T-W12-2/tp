@@ -6,6 +6,7 @@ title: User Guide
 UNite is a **desktop app for managing contacts specifically designed for people in University**. It is optimized for use via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI). If you want an easy-to-use app to manage your University contacts, UNIte is the right place to go!
 <br>
 <br>
+<br>
 * **Table of Contents**
 {:toc}
 
@@ -198,7 +199,7 @@ Examples:
 List out all tags current exist in UNite.
 
 <p align="center">
-    <img src="images/list_tag.png" width="500"/>
+    <img src="images/list_tag.png" width="450"/>
 </p>
 
 Format: `list_tag`
@@ -272,7 +273,7 @@ Examples:
 * `find alex david` returns `Alex Yeoh`, `David Li`<br>
 
 <p align="center">
-    <img src="images/find_yu_li.png" width="500"/>
+    <img src="images/find_yu_li.png" width="450"/>
 </p>
 
 
@@ -299,7 +300,7 @@ Examples:
 * `grab tele/ t/friends` <br> Grabs the telegram id of everyone tagged as "friends" inside UNite.
 
 <p align="center">
-    <img src="images/grab-email.png" width="400"/>
+    <img src="images/grab-email.png" width="450"/>
 </p>
 
 
@@ -332,7 +333,7 @@ Examples:
 * `theme dark` changes UNite to dark theme, which is also the default theme.
 
 <p align="center"> 
-    <img src="images/dark_theme.png" width="500"/>
+    <img src="images/dark_theme.png" width="450"/>
 </p>
 
 <div style="page-break-after: always;"></div>
@@ -340,7 +341,7 @@ Examples:
 * `theme light` changes UNite to light theme.
 
 <p align="center"> 
-    <img src="images/light_theme.png" width="500"/>
+    <img src="images/light_theme.png" width="450"/>
 </p>
 
 <div style="page-break-after: always;"></div>
@@ -358,7 +359,7 @@ Format: `profile INDEX`
 Examples:
 * `list` followed by `profile 2` displays the 2nd person's profile at the right-hand side.
 <p align="center">
-    <img src="images/profile.png" width="400"/>
+    <img src="images/profile.png" width="450"/>
 </p>
 
 * `filter friends` followed by `profile 3` displays the 3rd person's profile in the filtered list generated
@@ -405,8 +406,8 @@ enter the command in the command box and follow the instructions in the previous
 Shown below are the annotated screenshots of UNite for reference to UI components:
 
 <p align="center">
-    <img src="images/UNite_annotated.png" width="360"/>  <img src="images/UNite_profile.png" width="360"/> <br>
-<img src="images/UNite_taglist.png" width="360"/>  <img src="images/UNite_grabresult.png" width="360"/>
+    <img src="images/UNite_annotated.png" width="300"/>  <img src="images/UNite_profile.png" width="300"/> <br>
+<img src="images/UNite_taglist.png" width="300"/>  <img src="images/UNite_grabresult.png" width="300"/>
 </p>
 
 <div style="page-break-after: always;"></div>
@@ -494,7 +495,7 @@ Another approach to delete a tag one at a time is to right-click on a tag in tag
 To filter the list of person by tag directly, first display all the tags by input the command `list_tag`, then simply left-click on the tag to filter the list. As mentioned, this feature is enabled by default and cannot be disabled.
 
 <p align="center">
-    <img src="images/filter-through-click.png" width="300"/>
+    <img src="images/filter-through-click.png" width="450"/>
 </p>
 
 --------------------------------------------------------------------------------------------------------------------
